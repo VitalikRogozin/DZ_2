@@ -7,21 +7,21 @@
     android:gravity="bottom"
     android:orientation="vertical"
     android:padding="5dp"
-    tools:context=".MainActivity">
+    tools:context=".Calculator_junk.MainActivity">
 
     <TextView
         android:id="@+id/input_history1"
         style="@style/TextViewStyle"
-        tools:text="HISTORY" />
+        tools:text="YEAH" />
 
     <TextView
-        android:id="@+id/input_current1"
+        android:id="@+id/result_view"
         style="@style/TextViewStyle"
         android:textSize="48sp"
-        tools:text="CURRENT" />
+        tools:text="GOOD" />
 
 
-    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
